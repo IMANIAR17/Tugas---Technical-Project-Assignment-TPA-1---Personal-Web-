@@ -1,0 +1,366 @@
+/*  INDEX*/
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color:white;
+    padding-top: 20px;
+}
+
+/* Kotak belakang foto */
+#gambar{
+    padding: 50px 50px;
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    align-items: left;
+}
+
+/* bentuk grid foto */
+#foto img{
+    height: 300px;
+    border-radius: 7%;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    box-shadow: 7px 7px 10px #ff6347;
+    
+}
+
+/* mengatur teks deskripsi */
+#deskripsi p{
+    padding-left: 50px;
+}
+
+/* judul pada deskripsi home */
+#deskripsi h3{
+    padding-left: 50px;
+    font-size: 40px;  
+}
+
+/* memberi warna teks defend */
+#deskripsi span{
+    color: tomato;
+}
+
+/* menu home,about,skils,artivle */
+.menu{
+    float: right;
+}
+
+/* bagian atas */
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: tomato;
+    z-index: 1;
+    border-bottom:1px solid palevioletred;
+    top: -30px; 
+}
+
+/* menghilangkan titik */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* mengatur home,about ke tengah */
+nav ul li {
+    float: left;
+}
+
+/* Home about.HTML */
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 19px 16px 0px 16px;
+    text-decoration: none;
+}
+
+/* memberi garis pada home,about */
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 500px;
+    margin-top: 80px
+}
+
+#gambar{
+    margin-top: 100px;
+    margin-bottom: 0%;
+}
+
+/* botton about me */
+a.tbl-biru {
+    background: tomato;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+/* background selengkapnya */
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+
+/* icon sosmed ig, */
+.sosmed{
+    padding-top: 0%;
+    margin: 5px;
+    padding-left: 50px;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+
+/* mengatur icone sosmed */
+.sosmed ul li{
+    height: 20px;
+    width: 20px;
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+
+}
+ /* mengatur warna sosmed */
+.sosmed ul li i{
+    color: black;
+}
+/* 
+#copyright {
+    text-align: center;
+    width: 100%;
+    margin-top: 2000px;
+    padding: 50px 0px 50px 0px;
+    margin-top: 100px;
+    color: black;
+    background-color: tomato;
+} */
+
+/* Bagian ABOUT.HTML */
+/* BAGIAN ABOUT */
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+section {
+	flex: 1;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	padding: 50px;
+	margin-bottom: 50px;
+}
+
+section h2 {
+	margin-top: 0;
+}
+
+section img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+
+/* .Education{
+    padding: 100px;
+    padding-top: 10px;
+} */
+
+/* #aboutimg{
+    padding: 10px 10px;
+    margin: 20px;
+} */
+
+#aboutimg img{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    color: tomato;
+}
+
+#aboutimg h2 {
+    text-align: center;
+
+}
+
+#aboutimg p{
+    margin-left: 35px;
+}
+
+
+/* SKILL.HTML */
+.skil {
+    padding: 10px 10px;
+    background-color: #f7f7f7;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 1000px;
+    margin: 30px 50px;
+    
+}
+
+  .skil h2 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: tomato;
+    text-decoration: underline;
+    margin: 35px; 
+}
+
+
+  .skil img {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 5%;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    box-shadow: 7px 7px 10px #ff6347;
+    
+}
+
+.skil img:hover {  
+    transform: scale(1.1);
+    opacity: 2;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+  .skil h3 {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.title h2{
+    padding: 5px;  
+}
+
+.author{
+    float: left;
+    padding: 30px 40px;
+}
+
+/* BLOG.HTML */
+main {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+.blog h2 {
+   text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: tomato;
+    text-decoration: underline;
+    margin: 35px;   
+}
+
+section {
+	flex: 3;
+}
+
+article {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+article img{
+    border-radius: 0px;
+    width: 200px;
+    height: 200px;
+}
+
+article h2 {
+	margin-top: 0;
+    text-align: center;
+}
+
+aside {
+	flex: 1;
+	background-color: #f7f7f7;
+	border-radius: 5px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+aside img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+}
+
+footer{
+	padding: 50px 0;
+	background-color: tomato;
+	color: black;
+	text-align: center;
+    margin-top: 140px;
+}
+
+
